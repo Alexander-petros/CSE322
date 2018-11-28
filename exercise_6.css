@@ -5,3 +5,20 @@
     width: 33.3%;
     vertical-align: top;
 }
+@media only screen and (max-width: 600px) {
+    a {
+        display: block;
+        width: 100%;
+    }
+}
+@media print{
+    nav {
+        display: none;
+    }
+    a {
+        display: none;
+    }
+    h1 {
+        display: none;
+    }
+}

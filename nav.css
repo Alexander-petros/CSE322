@@ -16,7 +16,12 @@ nav>a {
     border: none;
     outline: none;
     cursor: pointer;
-    transition: 0.3s;
+}
+nav>a:link {
+    color: inherit;
+}
+nav>a:visited {
+    color:inherit;
 }
 nav>a:hover {
     background-color: #ddd;
